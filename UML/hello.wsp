@@ -1,0 +1,58 @@
+@startuml
+class Water
+{
+}
+
+class Animal
+{
+    -name:std::string
+
+    +speak():void
+}
+
+class TigerGroup
+{
+    -number:int
+    
+    +setNUmber(int num):void
+}
+
+class Tiger
+{
+    -weight:int
+    +run():void
+    +eatFood():void
+}
+
+class TigerSkin
+{
+    -color:std::string
+    +setColor(std::string clr):void
+}
+
+class Weather
+{
+    -state:std::string
+    +setWeather(std::string s):void
+}
+
+class Eat
+{
+    +eatFood():void
+}
+
+Water <.. TigerGroup
+Water <.. Tiger
+Animal <|-- Tiger
+TigerGroup o-- Tiger
+Tiger *-- TigerSkin
+Weather <-- Tiger
+Weather <-- TigerGroup
+Tiger <|.. Eat
+@enduml
+泛化（继承）：<|--
+关联：两个类之间有影响 : <--
+组合：整体与局部关系，强调具有相同的生命周期，耦合高； *--
+聚合：整体与局部关系，有各自的生命周期，可单独存在，耦合低； o--
+实现（继承）：<|..
+依赖：两个类是使用关系； <..
