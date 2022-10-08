@@ -1,0 +1,8 @@
+@startuml
+database s #green
+actor -> A
+A -> B :A到B
+A <-- B :B到A
+A -> C :A到C
+C -> D :C到D
+@enduml

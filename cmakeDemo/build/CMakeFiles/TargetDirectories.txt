@@ -1,0 +1,6 @@
+/home/tchuan/wP/cmakeDemo/build/CMakeFiles/rebuild_cache.dir
+/home/tchuan/wP/cmakeDemo/build/CMakeFiles/edit_cache.dir
+/home/tchuan/wP/cmakeDemo/build/CMakeFiles/test1.dir
+/home/tchuan/wP/cmakeDemo/build/src/CMakeFiles/rebuild_cache.dir
+/home/tchuan/wP/cmakeDemo/build/src/CMakeFiles/edit_cache.dir
+/home/tchuan/wP/cmakeDemo/build/src/CMakeFiles/add.dir

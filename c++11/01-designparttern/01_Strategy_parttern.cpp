@@ -66,5 +66,10 @@ int main()
     character->setWeapon(ak47);
     character->throwWeapon();
     cout << "normal!" << endl;
+
+    delete character;
+    delete knife;
+    delete ak47;
+    
     return 0;
 }

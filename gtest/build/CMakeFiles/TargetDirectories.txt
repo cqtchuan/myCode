@@ -1,3 +1,0 @@
-/home/tchuan/wP/gtest/build/CMakeFiles/rebuild_cache.dir
-/home/tchuan/wP/gtest/build/CMakeFiles/edit_cache.dir
-/home/tchuan/wP/gtest/build/CMakeFiles/hello.dir
